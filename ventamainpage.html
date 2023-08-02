@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venta</title>
+    <link rel="stylesheet" href="ventamainpage.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/02a597569c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="Img/venta.ico" href="Img/logooo.ico" />
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+      /* Navbar stil ayarları */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        height: 80px;
+      }
+
+      /* Logo stil ayarları */
+      .navbar-logo img {
+        height: 50px;
+      }
+
+      /* Linkler stil ayarları */
+      .navbar-links {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        color: white;
+        height: 250px;
+      }
+
+      .navbar-links a {
+        margin: 0 20px;
+      }
+
+      @media screen and (max-width: 768px) {
+        /* Ekran genişliği 768 pikselden küçükse */
+        .navbar {
+          height: 50px; /* Navbar'ın yüksekliğini azalt */
+        }
+        .navbar-logo img {
+          max-width: 100%; /* Logo resminin maksimum genişliğini ayarla */
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="header">
+      <!-- <div id="logo">
+        <img class="logo" src="Img/logooo.png" />
+      </div>
+       <div id="amblem">
+        <img class="amblem" src="Img/ventaamblem.png" />
+      </div> 
+      <div class="menu-bar">
+        <ul>
+          <li><a href="ventamainpage.html">Ana Sayfa</a></li>
+          <li><a href="#">Bize Katılın</a></li>
+          <li><a href="#">İletişim</a></li>
+          <li><a href="ventaegitmenlerimiz.html">Eğitmenlerimiz</a></li>
+        </ul>
+      </div> 
+      <div class="loginbut">
+        <a href="ventalogin.html"
+          ><i class="fa-solid fa-right-to-bracket"></i
+        ></a>
+      </div> -->
+
+      <nav>
+        <div class="navbar-logo">
+          <a href="#"><img src="Img/logooo.png" /></a>
+        </div>
+
+          <!-- <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a> -->
+            <div class="navbar-logo">
+
+                <img  src="Img/ventaamblem.png" />
+            </div>
+
+      </nav>
+
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+    </header>
+
+    <div id="news" class="content" style="height: auto; min-height: 700px">
+      <!-- <div class="news">
+            <a class="image" href="#"><img class="nureddin" src="Img/News/nureddinnebati.jpg" alt="" srcset=""></a>
+            <a href="#">Nureddin Nebati: Türkiye 2023'e çok güçlü giriyor</a>
+            <img class="turist" src="Img/News/turist.jpg" alt="" srcset="">
+            <a href="#" class="turista">Turizm sektöründe yeniden artış</a>
+        </div> -->
+    </div>
+
+    <div>
+      <footer>
+        <div class="footer-icerik">
+          <h3>Venta</h3>
+          <p>
+            2023 yılında kurulan Venta; gerçek zamanlı değerler ve güncel finans
+            piyasası haberleri, teknik analizler, temel analizler ve zengin
+            eğitim kadrosu ile borsa eğitimi gibi Finansal Piyasalar ile
+            bağlantılı araçları sunan mutlak bilgi kaynağıdır.<br />
+            Site, Dövizler, Endeksler & Hisse Senetleri, Vadeli işlemler ve
+            Opsiyonlar, Emtialar, Faiz Oranları & Tahviller konusunda bilgiye
+            derinlemesine ulaşmanızı sağlar.<br />
+            Dünya çapında büyüyen okur sayısı ile Venta; okurları için tek
+            kaynak olmak amacıyla sürekli yenilikler yaparak durmadan gelişen,
+            önde gelen küresel finans portalıdır.
+          </p>
+          <ul class="sosyalmedya">
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-sharp fa-solid fa-at"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            Copyright &copy;2023 codeOpacity. designed by <span>Pusat</span>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="./scripts/news.js"></script>
+  </body>
+</html>

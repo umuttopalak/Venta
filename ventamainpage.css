@@ -1,0 +1,265 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(Img/ventamainpage.jpg);
+  display: block;
+  flex-direction: column;
+  margin: 0;
+  
+  background-size: cover;
+  background-position: center center;
+}
+
+.content {
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+  margin-top: 5%;
+}
+
+.loginbut {
+  position: fixed;
+  left: 1750px;
+  top: 30px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.loginbut a {
+  text-decoration: none;
+  color: #fff;
+}
+.loginbut a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+  
+}
+.loginbut a:hover i {
+  color: #624f82;
+}
+.loginbut a {
+  margin: 0 10px;
+}
+#header {
+  background-color: #393e46;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 60px; /* navbar'ın en küçük yüksekliği */
+  max-height: 80px; /* navbar'ın en büyük yüksekliği */
+  width: 100%;
+  z-index: 999;
+}
+#amblem {
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+
+#logo {
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+
+.logo {
+  left: 5px;
+  top: -5px;
+  width: 100px;
+  float: left;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.amblem {
+  left: 820px;
+  top: -95px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  position: absolute;
+}
+
+main {
+  margin: 0; /* sayfa genişliği kadar genişlemesi için */
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px; /* header yüksekliği kadar bir boşluk bırak */
+  margin-bottom: 80px; /* footer yüksekliği kadar bir boşluk bırak */
+}
+
+.menu-bar ul {
+  float: right;
+  margin-right: 155px;
+  margin-top: -45px;
+}
+.menu-bar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 80px;
+  line-height: 55px;
+  margin-top: -300px;
+  margin-left: 230px;
+}
+.menu-bar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: -10px 10px;
+  font-family: "Noto Serif", serif;
+}
+.menu-bar ul li a.active,
+.menu-bar ul li a:hover {
+  background-color: #624f82;
+  border-radius: 2px;
+}
+footer {
+  background: #111;
+  height: auto;
+  font-family: "Open Sans";
+  padding-top: 20px;
+  color: #fff;
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-icerik {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-icerik h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-icerigi p {
+  max-width: 500px;
+  line-height: 28px;
+  font-size: 14px;
+}
+.sosyalmedya {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.sosyalmedya li {
+  margin: 0 10px;
+}
+.sosyalmedya a {
+  text-decoration: none;
+  color: #fff;
+}
+.sosyalmedya a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+.sosyalmedya a:hover i {
+  color: #624f82;
+}
+.footer-bottom {
+  background-color: #000;
+  padding: 3px;
+  text-align: center;
+  width: 100%;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+.new {
+  flex-direction: column;
+  text-align: center; /* İçerik öğelerini ortalar */
+  margin-left: 30%;
+  margin-right: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#news a {
+  text-decoration: none;
+  text-shadow: 2px 2px #675d59;
+}
+
+.new h1 {
+  font-size: 25px;
+  left: 750px;
+  top: 800px;
+  text-decoration: none;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: wheat;
+  margin-top: 4%;
+  margin-bottom: 6%;
+}
+
+.news img {
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  left: 0px;
+  top: -250px;
+}
+.news a {
+  position: absolute;
+  font-size: 25px;
+  height: 250px;
+  width: 450px;
+  left: 750px;
+  top: 430px;
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.404);
+}
+.news a:hover {
+  text-decoration: none;
+}
+.news .turist {
+  position: absolute;
+  font-size: 25px;
+  height: 250px;
+  width: 450px;
+  left: 750px;
+  top: 550px;
+  text-decoration: none;
+}
+
+.news .turista {
+  position: absolute;
+  font-size: 25px;
+  height: 250px;
+  width: 450px;
+  left: 750px;
+  top: 800px;
+
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#news {
+  position: relative;
+}

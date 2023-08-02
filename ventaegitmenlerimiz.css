@@ -1,0 +1,208 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Img/ventafullblack.jpg);
+    display: flex;
+    justify-content: center;
+}
+.loginbut{
+    position:absolute;
+    left: 1750px;
+    top: 30px;
+}
+.loginbut a{
+    text-decoration: none;
+    color: #fff;
+}
+.loginbut a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.loginbut a:hover i{
+    color: #624F82;
+}
+.loginbut a{
+    margin: 0 10px;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: #393E46;
+}
+#amblem{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+#logo{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.logo{
+    left: 5px;
+    top: -5px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: absolute;
+}
+.amblem{
+    left: 820px;
+    top: -95px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: absolute;
+}
+.menu-bar ul{
+    float:right;
+    margin-right: 155px;
+    margin-top: -45px;
+}
+.menu-bar ul li{
+    list-style: none;
+    display:inline-block;
+    margin:80px;
+    line-height: 55px;
+    margin-top: -300px;
+    margin-left: 230px;
+}
+.menu-bar ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: -10px 10px;
+    font-family: 'Noto Serif', serif;
+}
+.menu-bar ul li a.active,
+.menu-bar ul li a:hover{
+    background-color: #624F82;
+    border-radius: 2px;
+}
+footer{
+    position:absolute;
+    bottom: -500px;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 1864px;
+    height: 310px;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-icerik{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-icerik h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-icerigi p{
+    max-width: 500px;
+    margin:  10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.sosyalmedya{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.sosyalmedya li{
+    margin: 0 10px;
+}
+.sosyalmedya a{
+    text-decoration: none;
+    color: #fff;
+}
+.sosyalmedya a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.sosyalmedya a:hover i{
+    color: #624F82;
+
+}
+.footer-bottom{
+    background-color: #000;
+    width: 1864px;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.egitmen-tablosu h1{
+    position: absolute;
+}
+.egitmen-tablosu{
+    background-color: #624f824b;
+    justify-content: center;
+    top: 300px;
+    position:absolute;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+    min-width: 400;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.egitmen-tablosu thead tr{
+    background-color: #624F82;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+.egitmen-tablosu th,
+.egitmen-tablosu td{
+    padding: 12px 15px;
+    font-size: 20px;
+    font-family:sans-serif;
+    color: #fff;
+    text-shadow: #000 5px;
+}
+.egitmen-tablosu tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.egitmen-tablosu tbody tr:last-of-type{
+    border-bottom: 2px solid #624F82;
+}
+
+.egitmen-tablosu tbody tr.active-row{
+    font-weight: bold;
+    color: #624F82;
+}
+.egitmen-tablosu tbody img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.egitmen-tablosu tbody tr a{
+    color: #fff;
+}
